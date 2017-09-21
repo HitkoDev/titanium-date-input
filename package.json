@@ -1,13 +1,11 @@
 {
   "name": "titanium-date-input",
-  "flat": true,
   "version": "2.0.0",
   "contributors": [
     "Kasey Hinton kasey-hinton@leavitt.com"
   ],
   "main": "titanium-date-input.html",
   "dependencies": {
-    "@polymer/iron-form-element-behavior": "^3.0.0-pre.1",
     "@polymer/paper-input": "^3.0.0-pre.1",
     "@polymer/polymer": "^3.0.0-pre.1",
     "momentjs-es6": "https://github.com/HitkoDev/momentjs-es6"
