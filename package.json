@@ -1,21 +1,16 @@
 {
-  "name": "project",
-  "version": "1.0.5",
-  "description": "",
-  "main": "service-worker.js",
-  "directories": {
-    "test": "test"
+  "name": "titanium-date-input",
+  "flat": true,
+  "version": "2.0.0",
+  "contributors": [
+    "Kasey Hinton kasey-hinton@leavitt.com"
+  ],
+  "main": "titanium-date-input.html",
+  "dependencies": {
+    "@polymer/iron-form-element-behavior": "^3.0.0-pre.1",
+    "@polymer/paper-input": "^3.0.0-pre.1",
+    "@polymer/polymer": "^3.0.0-pre.1",
+    "momentjs-es6": "https://github.com/HitkoDev/momentjs-es6"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "browser-sync": "^2.18.2",
-    "gulp": "^3.9.1",
-    "jshint": "^2.9.5"
-  },
-  "scripts": {
-    "lint": "jshint \"titanium-date-input.html\" --extract=always",
-    "test": "npm run lint"
-  },
-  "author": "",
-  "license": "ISC"
+  "devDependencies": {}
 }
